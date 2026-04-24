@@ -1,19 +1,3 @@
-"""
-api.py
-──────────────────────────────────────────────────────────────────
-Flask API server — bridge between React frontend and Python pipeline.
-
-HOW TO RUN:
-  1. Make sure you are in medverify/ folder
-  2. pip install flask flask-cors
-  3. python api.py
-  4. Server runs on http://localhost:5000
-
-ENDPOINTS:
-  POST /verify      → runs pipeline on text input
-  POST /verify-image → runs pipeline on image + optional text
-  GET  /metrics     → returns real accuracy from eval_results.json
-"""
 
 import os
 import json
