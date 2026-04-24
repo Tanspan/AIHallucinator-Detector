@@ -2,7 +2,7 @@
 
 > An intelligent multi-agent NLP system that detects and corrects hallucinations in AI-generated medical text using fine-tuned biomedical models and real-time evidence retrieval.
 
-![MedVerify Demo](assets/demo.png) <!-- Replace with your screenshot -->
+
 
 ---
 
@@ -18,23 +18,15 @@ MedVerify catches these errors, explains why they're wrong, and provides correct
 
 ## ✨ Features
 
-- 🔍 **Hallucination Detection** — Classifies medical claims as hallucinated or factual with 94.3% accuracy
-- 🤖 **Multi-Agent Pipeline** — 9 specialized agents handle detection, retrieval, reranking, and correction
-- 📚 **Real-Time Evidence Retrieval** — Pulls from PubMed, Semantic Scholar, and Europe PMC
-- ✏️ **Automated Correction** — Generates corrected statements using Groq LLaMA 3.3 70B
-- 🌐 **Full-Stack Interface** — React frontend + Flask API backend
+-  **Hallucination Detection** — Classifies medical claims as hallucinated or factual with 94.3% accuracy
+-  **Multi-Agent Pipeline** — 9 specialized agents handle detection, retrieval, reranking, and correction
+-  **Real-Time Evidence Retrieval** — Pulls from PubMed, Semantic Scholar, and Europe PMC
+   **Automated Correction** — Generates corrected statements using Groq LLaMA 3.3 70B
+-  **Full-Stack Interface** — React frontend + Flask API backend
 
 ---
 
-## 🖼️ Screenshots
 
-| Input Interface | Detection Result | Evidence Panel |
-|---|---|---|
-| ![Input](assets/input.png) | ![Result](assets/result.png) | ![Evidence](assets/evidence.png) |
-
-<!-- Add your screenshots to an assets/ folder in the repo -->
-
----
 
 ## 🏗️ System Architecture
 
@@ -176,13 +168,8 @@ medverify/
 
 ---
 
-## 👤 Author
-
-**Tantan** — B.Tech CSE  
-GitHub: [@tanspan](https://github.com/tanspan)
-
----
-
-## 📄 License
-
-This project is for academic purposes.
+##Demo
+<img width="1855" height="527" alt="Screenshot 2026-04-24 133348" src="https://github.com/user-attachments/assets/de11a288-78b1-4593-a382-fc851c309f01" />
+<img width="1219" height="752" alt="Screenshot 2026-04-24 133339" src="https://github.com/user-attachments/assets/95ca1358-3839-4787-9a03-8c5b0572d212" />
+<img width="1140" height="788" alt="Screenshot 2026-04-24 133358" src="https://github.com/user-attachments/assets/7e71c66a-4bbb-4f28-9a19-cccd7b8aa84b" />
+<img width="1102" height="367" alt="Screenshot 2026-04-24 133405" src="https://github.com/user-attachments/assets/d11329dd-8a9b-4096-b844-a423cf1cdcc4" />
